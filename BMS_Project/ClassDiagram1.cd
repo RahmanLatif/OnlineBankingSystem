@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BMS_Project.AddCoo" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAAABAAAACgAAADAAAAQAEAAIABAUAAAAg=</HashCode>
+      <FileName>AddCoo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Admin" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACBgAACAAEAAAIACBCgAKAEI8AhAAFFgJEQBhAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.AdminClass" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAARAIAAAABAgAAAAAAAgAUAUFAAABgAEAAYKgAAAAA=</HashCode>
+      <FileName>AdminClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.AdminMaster" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAChAYACAAAAAAAACAAAACAAgcAgACBGAAAQBBYAg=</HashCode>
+      <FileName>AdminMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.AdminMasterClass" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAABAAAAAAAAEAACAAAAAAAAAQAgAAAAA=</HashCode>
+      <FileName>AdminMasterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Authentication" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAACAAAAAAIAAEAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Authentication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Customer" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABGJEIAKAAMAAAYCCACAACAEA4AgAAlXAsAQBBAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.CustomerClass" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAApAEEAAAiACAAAgAQACAQAgAAAQPQwAQAAAAEBA=</HashCode>
+      <FileName>CustomerClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.DataBase" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAABAAAAQAAAAAAAAAAIAAAAgAAIAABAAAABA=</HashCode>
+      <FileName>DataBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.DeleteCoo" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIAAAACAAABAQAACAAAACAAAAQAEAAIABAUAAgAA=</HashCode>
+      <FileName>DeleteCoo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.PayBills" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAQAACAAAACAAAAQAAAEIAAAUAAAQA=</HashCode>
+      <FileName>PayBills.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Program" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.RecentLogedUsers" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABCAAACAAAACAAgAQBAAAIABAQAAgAA=</HashCode>
+      <FileName>RecentLogedUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Register" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAAAgACAAA=</HashCode>
+      <FileName>Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.ShowCustomerInfo" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>e4AwAAAAACAAQJCAAAKJAAACAQAAAAAAADAAAQAAQBA=</HashCode>
+      <FileName>ShowCustomerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.TransferSameBank" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAEQAAAAIAAAUAAAQA=</HashCode>
+      <FileName>TransferSameBank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.TransferToOtherBank" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAEQAAAEIAAAUAAAQA=</HashCode>
+      <FileName>TransferToOtherBank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Utility_changePass" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAASABABAAAACAAAACAAAAAABAQBAAASAAAJA=</HashCode>
+      <FileName>Utility_changePass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Utility_changeUsername" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAASABABAAAACAQAACCAAAAABAQAAAAQAAAIA=</HashCode>
+      <FileName>Utility_changeUsername.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Validation" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAIAAIAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.ViewAdminAcc" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YwAAAAQAACADABCBAACAAAACACAIAAAgAGAAAQAAAIA=</HashCode>
+      <FileName>ViewAdminAcc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.ViewPaymentHistory" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABCAAACAAAACAAgAABAAAIAAAQAAgIA=</HashCode>
+      <FileName>ViewPaymentHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.ViewTransactions" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABCAAACAAAACAAgAQBAAAIAAAQAAgAA=</HashCode>
+      <FileName>ViewTransactions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Welcome" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/xAQAAAAACAAAFCIACCAgAAKAAQAACBAECBABSEiAbA=</HashCode>
+      <FileName>Welcome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DGVPrinterHelper.LogManager" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAAAAgAEAIAAAAAAAAAQAAgBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DGVPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DGVPrinterHelper.LogWriter" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAA=</HashCode>
+      <FileName>DGVPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DGVPrinterHelper.DGVCellDrawingEventArgs" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAAAAAAAACQAAAAAAIAAAEAAAAAAA=</HashCode>
+      <FileName>DGVPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DGVPrinterHelper.Extensions" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DGVPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DGVPrinterHelper.DGVPrinter" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>3l8qd9+X8t/kaFBjS+oO7skhbCrxPjww/j3/2N2C1m8=</HashCode>
+      <FileName>DGVPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BMS_Project.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="DGVPrinterHelper.CellOwnerDrawEventHandler" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DGVPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9.08" />
+</ClassDiagram>

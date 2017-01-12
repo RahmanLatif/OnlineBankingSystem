@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C0C419D-1488-4983-8B87-CCB610FE33E7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BMS_Project</RootNamespace>
+    <AssemblyName>BMS_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCoo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCoo.Designer.cs">
+      <DependentUpon>AddCoo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminClass.cs" />
+    <Compile Include="AdminMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMaster.Designer.cs">
+      <DependentUpon>AdminMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMasterClass.cs" />
+    <Compile Include="Authentication.cs" />
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerClass.cs" />
+    <Compile Include="DataBase.cs" />
+    <Compile Include="DeleteCoo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteCoo.Designer.cs">
+      <DependentUpon>DeleteCoo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DGVPrinter.cs" />
+    <Compile Include="PayBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayBills.Designer.cs">
+      <DependentUpon>PayBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecentLogedUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecentLogedUsers.Designer.cs">
+      <DependentUpon>RecentLogedUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs" />
+    <Compile Include="ShowCustomerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowCustomerInfo.Designer.cs">
+      <DependentUpon>ShowCustomerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransferSameBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferSameBank.Designer.cs">
+      <DependentUpon>TransferSameBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransferToOtherBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferToOtherBank.Designer.cs">
+      <DependentUpon>TransferToOtherBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility_changePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility_changePass.Designer.cs">
+      <DependentUpon>Utility_changePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility_changeUsername.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility_changeUsername.Designer.cs">
+      <DependentUpon>Utility_changeUsername.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validation.cs" />
+    <Compile Include="ViewAdminAcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAdminAcc.Designer.cs">
+      <DependentUpon>ViewAdminAcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPaymentHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPaymentHistory.Designer.cs">
+      <DependentUpon>ViewPaymentHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTransactions.Designer.cs">
+      <DependentUpon>ViewTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCoo.resx">
+      <DependentUpon>AddCoo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMaster.resx">
+      <DependentUpon>AdminMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCoo.resx">
+      <DependentUpon>DeleteCoo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayBills.resx">
+      <DependentUpon>PayBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecentLogedUsers.resx">
+      <DependentUpon>RecentLogedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowCustomerInfo.resx">
+      <DependentUpon>ShowCustomerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferSameBank.resx">
+      <DependentUpon>TransferSameBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferToOtherBank.resx">
+      <DependentUpon>TransferToOtherBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility_changePass.resx">
+      <DependentUpon>Utility_changePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility_changeUsername.resx">
+      <DependentUpon>Utility_changeUsername.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAdminAcc.resx">
+      <DependentUpon>ViewAdminAcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPaymentHistory.resx">
+      <DependentUpon>ViewPaymentHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTransactions.resx">
+      <DependentUpon>ViewTransactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
